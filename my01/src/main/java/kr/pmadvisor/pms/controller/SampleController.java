@@ -10,10 +10,10 @@ import ch.qos.logback.classic.Logger;
 @RequestMapping("/sample/*")
 public class SampleController {
 
-	@RequestMapping("")
+	private Logger logger = (Logger) LoggerFactory.getLogger(this.getClass());
+	
+	@RequestMapping("basic")
 	public void basic() {
-		
-		Logger logger = (Logger) LoggerFactory.getLogger(this.getClass());
 		
 		logger.info("basic.......................");
 		

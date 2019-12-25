@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import ch.qos.logback.classic.Logger;
 import kr.pmadvisor.pms.domain.SampleDTO;
 import kr.pmadvisor.pms.domain.SampleDTOList;
+import kr.pmadvisor.pms.domain.TodoDTO;
+import kr.pmadvisor.pms.domain.TodoDTO2;
 
 @Controller
 @RequestMapping("/sample/*")
@@ -88,6 +90,16 @@ public class SampleController {
 			
 	}
 
+	// 데이트 Format(p138)	
+	@GetMapping("/ex032")
+	public String ex032(TodoDTO2 todo) {
+		
+		logger.info("todo: "+ todo);
+		
+		return "Info";
+		
+	}
+	
 	
 	
 	

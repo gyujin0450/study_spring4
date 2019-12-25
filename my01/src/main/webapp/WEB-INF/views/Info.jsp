@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>/WEB-INF/views/ex01.jsp</h1>
+	<h1>/WEB-INF/views/info.jsp</h1>	
 </body>
 </html>

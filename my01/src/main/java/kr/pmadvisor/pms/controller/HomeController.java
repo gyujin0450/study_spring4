@@ -1,4 +1,4 @@
-package kr.pmadvisor.pms;
+package kr.pmadvisor.pms.controller;
 
 import java.text.DateFormat;
 import java.util.Date;
